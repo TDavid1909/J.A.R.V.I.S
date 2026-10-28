@@ -1,0 +1,24 @@
+# Local settings and credentials
+/config.json
+.env
+.env.*
+!.env.example
+*token*.json
+*credentials*.json
+client_secret*.json
+*.pem
+*.key
+
+# Environments, caches, generated audio and downloaded models
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+/models/
+/samples/
+*.log
+
+# Local snapshots
+*.before-*.py
+*.before-*.json

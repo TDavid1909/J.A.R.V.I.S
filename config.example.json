@@ -1,0 +1,33 @@
+{
+  "wake_words": [
+    "jarvis",
+    "yarvis",
+    "jervis",
+    "harvis",
+    "asistente"
+  ],
+  "voice": "es-la",
+  "speed": 165,
+  "followup_seconds": 45,
+  "source": "",
+  "ollama_model": "qwen3.5:4b",
+  "sink": "",
+  "tts_engine": "piper",
+  "piper_model": "models/voices/es_MX-claude-high.onnx",
+  "piper_length_scale": 1.05,
+  "voice_effect": "jarvis_latino",
+  "voice_pitch": 0.94,
+  "file_roots": [
+    "~/Documents",
+    "~/Downloads",
+    "~/Desktop",
+    "~/Projects",
+    "~/Notes"
+  ],
+  "natural_commands": true,
+  "log_responses": false,
+  "speech_model": "models/faster-whisper-medium",
+  "speech_threshold": 0.5,
+  "speech_end_silence": 0.9,
+  "speech_max_seconds": 25
+}
